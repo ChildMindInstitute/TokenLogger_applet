@@ -9,12 +9,10 @@
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/TokenLogger_applet/master/protocols/TokenLogger/README.md",
-    "schema:image": "https://raw.githubusercontent.com/ReproNim/reproschema/master/protocols/TokenLogger/mit_voice_pilot_applet_image.svg?sanitize=true",
     "ui": {
         "addProperties": [
             {"variableName": "TokenActivity_schema",
             "isAbout": "TokenActivity_schema",
-            "prefLabel": "TokenActivity",
             "isVis": true
             }
         ],
