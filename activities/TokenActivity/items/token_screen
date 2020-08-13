@@ -2,15 +2,12 @@
     "@context": "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
     "@type": "reproschema:Field",
     "@id": "token_screen",
-    "skos:prefLabel": "token_screen",
-    "schema:description": "Q1 of the TokenActivity Assessment",
-    "schema:schemaVersion": "0.0.1",
-    "schema:version": "0.0.1",
-    "question": {
-        "en": "Token Screen"
-    },
+    "question": "Token Screen",
     "ui": {
-        "inputType": "radio"
+        "inputType": "radio",
+        "allow": [
+            "dontKnow"
+        ]
     },
     "responseOptions": {
         "valueType": "xsd:integer",
@@ -18,40 +15,34 @@
         "schema:maxValue": 5,
         "multipleChoice": true,
         "choices": [{
-            "name": {
-                "en": "Paid attention"
-            },
-            "value": 0
+            "@type": "schema:option",
+            "schema:name": "Paid attention",
+            "schema:value": 0
         },
         {
-            "name": {
-                "en": "Cleaned up room"
-            },
-            "value": 1
+            "schema:name": "Cleaned up room",
+            "@type": "schema:option",
+            "schema:value": 1
         },
         {
-            "name": {
-                "en": "Brushed teeth"
-            },
-            "value": 2
+            "schema:name": "Brushed teeth",
+            "@type": "schema:option",
+            "schema:value": 2
         },
         {
-            "name": {
-                "en": "Lied difficult"
-            },
-            "value": 3
+            "schema:name": "Lied difficult",
+            "@type": "schema:option",
+            "schema:value": 3
         },
         {
-            "name": {
-                "en": "Showed aggression"
-            },
-            "value": 4
+            "schema:name": "Showed aggression",
+            "@type": "schema:option",
+            "schema:value": 4
         },
         {
-            "name": {
-                "en": "Used foul language"
-            },
-            "value": 5
+            "schema:name": "Used foul language",
+            "@type": "schema:option",
+            "schema:value": 5
         }]
     }
 }
