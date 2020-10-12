@@ -12,7 +12,7 @@
         ]
     },
     "responseOptions": {
-        "valueType": "xsd:integer",
+        "valueType": "xsd:token",
         "schema:minValue": 0,
         "schema:maxValue": 5,
         "multipleChoice": true,
