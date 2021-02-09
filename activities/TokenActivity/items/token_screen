@@ -19,30 +19,36 @@
         "choices": [{
             "@type": "schema:option",
             "schema:name": "Paid attention",
+            "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/tokenlogger-images/main/png/paid_attention.png",
             "schema:value": 0
         },
         {
             "schema:name": "Cleaned up room",
+            "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/tokenlogger-images/main/png/clean_bedroom.png",
             "@type": "schema:option",
             "schema:value": 1
         },
         {
             "schema:name": "Brushed teeth",
+            "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/tokenlogger-images/main/png/brush_teeth.png",
             "@type": "schema:option",
             "schema:value": 2
         },
         {
             "schema:name": "Lied difficult",
+            "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/tokenlogger-images/main/png/lied.png",
             "@type": "schema:option",
             "schema:value": 3
         },
         {
             "schema:name": "Showed aggression",
+            "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/tokenlogger-images/main/png/aggression.png",
             "@type": "schema:option",
             "schema:value": 4
         },
         {
             "schema:name": "Used foul language",
+            "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/tokenlogger-images/main/png/foul_language.png",
             "@type": "schema:option",
             "schema:value": 5
         }]
